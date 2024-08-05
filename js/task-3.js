@@ -23,14 +23,11 @@ class StringBuilder {
         this.#value = str + this.#value;
     }
     // Використовуємо існуючий метод для додавання 
-    //  на початок
+    
 
     padBoth(str) {
-        this.padStart(str);
-    }
-    // в кінець
-    padBoth(str) {
-        this.padEnd(str);
+        this.padStart(str);//  на початок
+        this.padEnd(str); // в кінці
     }
 }
 
